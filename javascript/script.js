@@ -59,6 +59,6 @@ function buttonAnimation(currentkey) {
   // used Anonymous funtion here
   setTimeout(function () {
     activeButton.classList.remove("pressed");
-  }, 100);
-  // delay of 100 milli seconds
+  }, 1000);
+  // delay of 1000milli seconds
 }
