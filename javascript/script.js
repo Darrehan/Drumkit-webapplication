@@ -51,7 +51,7 @@ function makeSound(key) {
       break;
   }
 }
-// Animation for button's
+// Animation for button's to provide animation
 function buttonAnimation(currentkey) {
   var activeButton = document.querySelector("." + currentkey);
   activeButton.classList.add("pressed");
